@@ -1,5 +1,9 @@
 #include "binary_trees.h"
 
+int binary_tree_height_2(const binary_tree_t *tree);
+int is_perfect_recursive(const binary_tree_t *tree, int height, int level);
+
+
 /**
  * binary_tree_is_perfect - Checks if a binary tree is perfect
  * @tree: Pointer to the root node of the tree to check
