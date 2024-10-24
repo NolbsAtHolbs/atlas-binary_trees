@@ -10,7 +10,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;
 
-	new_node = malloc(sizeof(binary_tree_t)); /* allocate memory for the new node */
+	new_node = malloc(sizeof(binary_tree_t)); /* alloc memory for new node */
 	if (new_node == NULL)
 		return (NULL);
 
